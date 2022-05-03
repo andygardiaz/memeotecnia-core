@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        url: jdbc:mariadb://localhost:3306/memeotecnia_db
+        username: root
+        password: 
+        driver-class-name: org.mariadb.jdbc.Driver
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: debug
+
